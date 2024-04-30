@@ -120,7 +120,7 @@ const Checkout: React.FC = () => {
                     <hr className='second-line-right-side-hr' />
                 </div>
                 <div className='third-line-right-side'>
-                    <img src={boleto2.src} alt="popup" />
+                    <img src={boleto2.src} alt="popup" className='img-boleto-popup' />
                 </div>
                 <div className='second-line-right-side'>
                     <hr className='second-line-right-side-hr' />
@@ -128,8 +128,8 @@ const Checkout: React.FC = () => {
                     <hr className='second-line-right-side-hr' />
                 </div>
                 <div className='boleto-line-right-side'>
-                    <button className='button-imprimir'>IMPRIMIR</button>
-                    <button className='button-copiar'>COPIAR</button>
+                    <button className='button-imprimir'>Imprimir</button>
+                    <button className='button-copiar'>Copiar</button>
                 </div>
             </>
             :
@@ -166,7 +166,12 @@ const Checkout: React.FC = () => {
             </div>
             <div className='seventh-line-right-side'>
                 <button className='seventh-line-right-side-button'>Pagar</button>
-                </div>
+            </div>  
+            <div className='mobile-terms-line'>
+                <p className='powered-text-mobile'>Powered by <strong>Checkout</strong></p>
+                <p className='terms-text-mobile'>Terms</p>
+                <p className='contact-text-mobile'>Contact</p>
+            </div>
             </>
             }
         </div>
