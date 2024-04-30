@@ -912,6 +912,9 @@ body{
         padding: 5% 0 5% 0;
         gap: 5%;
     }
+    .popup-pix-icon{
+        width: 100%;
+    }
  }
  /* Estilizações Mobile Medium */
  @media (min-width:375px) and (max-width: 424px) {
@@ -1014,6 +1017,9 @@ body{
     .boleto-line-right-side{
         padding: 5% 0 5% 0;
         gap: 5%;
+    }
+    .popup-pix-icon{
+        width: 100%;
     }
  }
  /* Estilizações Mobile Small */
@@ -1125,6 +1131,9 @@ body{
     .boleto-line-right-side{
         padding: 5% 0 5% 0;
         gap: 5%;
+    }
+    .popup-pix-icon{
+        width: 100%;
     }
  }
 

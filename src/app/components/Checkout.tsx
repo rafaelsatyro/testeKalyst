@@ -108,7 +108,7 @@ const Checkout: React.FC = () => {
                 <hr className='second-line-right-side-hr' />
             </div>
             <div className='third-line-right-side'>
-               <img src={pix2.src} alt="popup" />
+               <img src={pix2.src} alt="popup" className='popup-pix-icon' />
             </div>
             </>
             :
