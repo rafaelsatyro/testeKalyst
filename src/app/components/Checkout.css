@@ -509,6 +509,51 @@ body{
     color: white;
     cursor: pointer;
 }
+.boleto-hr-container-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    height: 50px;
+}
+.boleto-line-right-side{
+    display: flex;
+    flex-direction: row;
+    padding: 10% 0 0% 0;
+    justify-content: center;
+    gap: 2%;
+}
+.button-imprimir{
+    height: 50px;
+    background-color: rgba(26, 26, 26, 1);
+    border: none;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    width: 40%;
+    cursor:pointer;
+}
+.button-copiar{
+    height: 50px;
+    background-color: rgba(26, 26, 26, 1);
+    border: none;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    width: 40%;
+    cursor:pointer;
+}
 
 
 

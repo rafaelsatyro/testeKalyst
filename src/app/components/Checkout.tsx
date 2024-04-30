@@ -2,8 +2,10 @@
 import React, { useState } from 'react';
 import './Checkout.css';
 import leftarrow from '../../../public/seta.png';
-import circle from '../../../public/bola.png'
-import boleto from '../../../public/boleto.png'
+import circle from '../../../public/bola.png';
+import pix2 from '../../../public/popup.png';
+import boleto from '../../../public/boleto.png';
+import boleto2 from '../../../public/boleto2.png';
 import pix from '../../../public/pix.png';
 
 
@@ -99,11 +101,37 @@ const Checkout: React.FC = () => {
             )}
         </div>
            {paymentMethod === 'pix' ?
-            <p>Pix</p>
+            <>
+            <div className='second-line-right-side'>
+                <hr className='second-line-right-side-hr' />
+                <p className='second-line-right-side-pay-with-card'>Pix</p>
+                <hr className='second-line-right-side-hr' />
+            </div>
+            <div className='third-line-right-side'>
+               <img src={pix2.src} alt="popup" />
+            </div>
+            </>
             :
             (paymentMethod === 'boleto') ?
-
-            <p>Boleto</p>
+            <>
+                <div className='second-line-right-side'>
+                    <hr className='second-line-right-side-hr' />
+                    <p className='second-line-right-side-pay-with-card'>Boleto</p>
+                    <hr className='second-line-right-side-hr' />
+                </div>
+                <div className='third-line-right-side'>
+                    <img src={boleto2.src} alt="popup" />
+                </div>
+                <div className='second-line-right-side'>
+                    <hr className='second-line-right-side-hr' />
+                    <p className='second-line-right-side-pay-with-card'>Boleto</p>
+                    <hr className='second-line-right-side-hr' />
+                </div>
+                <div className='boleto-line-right-side'>
+                    <button className='button-imprimir'>IMPRIMIR</button>
+                    <button className='button-copiar'>COPIAR</button>
+                </div>
+            </>
             :
             <>
             <div className='second-line-right-side'>
